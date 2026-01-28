@@ -1,0 +1,10 @@
+# Minimal Databricks Asset Bundle skeleton
+# Add workspace-specific values when configuring CI/CD or Jobs.
+assets:
+  - name: build_gold_tables
+    path: notebooks/00_build_gold_tables.py
+
+  - name: quality_checks
+    path: notebooks/10_quality_checks.py
+
+# Additional asset types (jobs, dashboards, sql) can be added here as needed.
